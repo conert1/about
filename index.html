@@ -1,19 +1,160 @@
- <!-- https://conert1.github.io/about/ -->
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>personal site</title>
+  <head>
+    <title>personal site</title>
+   
+  </head>
+
+  <body> 
+    <div class="one">
         <header>
-            <p>me</p>
-        </header>
-    </head>
+      <p><a href="#first_paragraph">About</a></p>
+      <p><a href="#fourth_paragraph">Contact</a></p>
+      <p><a href="#third_paragraph">Links</a></p>
+    </header>
+    <h1>Conert Mavuso</h1>
+    <div class="intro">
+      <p>
+        Aspiring full stack developer <br />
+        crafting digital experiances.
+      </p>
+    </div>
+    </div>
+    
+    
+    <div id="first_paragraph"><h2>About</h2>
+    <p>Full stack web developer in the making, self taught mostly building websites using HTML CSS and Javascript,
+        <br> my learning path also includes working on other small practice projects in languages like python and java,
+        <br> While my primary proficiency lies in Java, I am enthusiastic about embracing new technologies and
+        <br> eager to adapt to the evolving demands of the industry. Professional work experiance is
+        <br> not in technology but in the retail industry,
+         therefore I have aquired some very<br> valuable interpersonal skills which make me a good team player,
+        <br> I am confident that I can contribute
+        significantly to any team I join. </p></div>
 
-    <body>
-        <h1>heading</h1>
-    </body>
 
-    <style>
-        body{
-            background-color: indianred;
-        }
-    </style>
+        <div id="second_paragraph">
+            <h2>Skills</h2>
+            <div class="photos">
+                <img src="pics/html.png" alt="">
+                <img src="pics/css.png" alt="">
+                <img src="pics/javascript.png" alt="">
+            </div>
+            <div class="photos">
+                <img src="pics/Python.png" alt="" width="200" height="200">
+                <img src="pics/C++.png" alt="" width="200" height="200">
+                <img src="pics/Java.png" alt="" width="200" height="200">
+            </div>
+        </div>
+    
+        <div id="third_paragraph">
+            <h2>Projects</h2>
+            <p>this is a simple hangman game that i made using html css javascript and the three.js library<br><br><i>click on the image to check it out, and play</i> </p>
+            <a href="https://conert1.github.io/personal-profile/game/"><img src="pics/hangman.png" alt="" height="350" width="450"></a>
+        </div>
+
+        <div id="fourth_paragraph">
+        <h2>Contact</h2>
+        <p>Email            conertmavuso@gmail.com</p>
+        <p>Contact          0610677442</p>
+        </div>
+  </body>
+
+  <style>
+    body {
+      background-image: linear-gradient(
+        90deg,
+        rgb(0, 0, 0),
+        rgba(18, 97, 31, 0.884)
+      );
+      box-shadow: darkgreen 5px 5px 5px;
+      text-align: center;
+    }
+    .one{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./pics/internet-7843966_1280.jpg");
+        
+        /* background-blend-mode: multiply; */
+        height: 600px;
+    }
+
+    h1 {
+      color: white;
+      font-size: 100px;
+    }
+    header p {
+      display: inline-block;
+      margin-top: 20px;
+      padding-left: 150px;
+    }
+
+    header a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+    }
+    header a:hover {
+      color: black;
+    }
+    .intro{
+        font-size: 30px;
+        font-style: italic;
+        color: white;
+    }
+    h2{
+        
+        font-size: 60px;
+    }
+    #first_paragraph{
+        padding-top: 6%;
+        margin-top: -3.8%;
+        color: white;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/monitor-1307227_1920.jpg");
+        font-size: 20px;
+        white-space: 60px;
+        line-height: 40px;
+        height: 600px;
+    }
+    #second_paragraph{
+        
+        height: 1100px;
+        padding-top: 5%;
+        color: white;
+        margin-top: -1%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./pics/binary-3044663_1920.jpg");
+    }
+    .photos img {
+        padding-left: 3%;
+        margin-right: 10%;
+        padding-top: 10%;
+    transition: transform 0.3s ease; 
+}
+
+.photos img:hover {
+    transform: scale(1.5); 
+}
+ #third_paragraph img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+
+ }
+#third_paragraph{
+    height: 650px;
+    color: white;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/source-4280758_1280.jpg");
+    margin-top: -3.8%;
+}
+
+#fourth_paragraph{
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./pics/pexels-mikhail-nilov-7709020.jpg");
+    height: 600px;
+    margin-top: -3.8%;
+    font-size: xx-large;
+    word-spacing: 50px;
+}
+
+
+  </style>
 </html>
