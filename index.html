@@ -6,15 +6,22 @@
   </head>
 
   <body> 
+    <div id="last">
+      <a href="#"> ^^TOP^^ </a>
+      
+    </div>
     <div class="one">
         <header>
+        <p><a href="https://conert1.github.io/personal-profile">linkedin</a></p>
+        <p><a href="https://github.com/conert1">Github</a></p>
       <p><a href="#first_paragraph">About</a></p>
       <p><a href="#fourth_paragraph">Contact</a></p>
       <p><a href="#third_paragraph">Links</a></p>
       <p><a href="./pics/curriculum_vitae_of_Conert_Mavuso.pdf">CV</a></p>
     </header>
-    <h1>Conert Mavuso</h1>
+    
     <div class="intro">
+      <h1>Conert Mavuso</h1>
       <p>
         Aspiring full stack developer <br />
         crafting digital experiances.
@@ -22,18 +29,16 @@
     </div>
     </div>
     
-    <div id="last">
-      <a href="#"> ^^^TOP^^^ </a>
-    </div>
+    
     <div id="first_paragraph"><h2>About</h2>
-    <p>Full stack web developer in the making, self taught mostly building websites using HTML CSS and Javascript,
-        <br> my learning path also includes working on other small practice projects in languages like python and java,
-        <br> While my primary proficiency lies in Java, I am enthusiastic about embracing new technologies and
-        <br> eager to adapt to the evolving demands of the industry. Professional work experiance is
-        <br> not in technology but in the retail industry,
-         therefore I have aquired some very<br> valuable interpersonal skills which make me a good team player,
-        <br> I am confident that I can contribute
-        significantly to any team I join. </p></div>
+    <p>Full stack web developer in the making, self-taught mostly building websites using HTML CSS, and Javascript.
+      <br> My learning path also includes working on other small practice projects in languages like Python and Java,
+      <br> While my primary proficiency lies in Java, I am enthusiastic about embracing new technologies and
+      <br> eager to adapt to the evolving demands of the industry. Professional work experience is
+      <br> not in technology but in the retail industry,
+       therefore I have acquired some very<br> valuable interpersonal skills that make me a good team player,
+      <br> I am confident that I can contribute
+      significantly to any team I join. </p></div>
 
 
         <div id="second_paragraph">
@@ -79,7 +84,8 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./pics/internet-7843966_1280.jpg");
         
         /* background-blend-mode: multiply; */
-        height: 600px;
+        height: fit-content;
+        padding-bottom: 2%;
     }
 
     h1 {
@@ -89,7 +95,7 @@
     header p {
       display: inline-block;
       margin-top: 20px;
-      padding-left: 150px;
+      padding-left: 50px;
     }
 
     header a {
@@ -102,6 +108,7 @@
       color: greenyellow;
     }
     .intro{
+      
         font-size: 30px;
         font-style: italic;
         color: white;
@@ -111,18 +118,19 @@
         font-size: 60px;
     }
     #first_paragraph{
+      height: fit-content;
         padding-top: 6%;
         margin-top: -3.8%;
         color: white;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/monitor-1307227_1920.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.911)), url("./pics/monitor-1307227_1920.jpg");
         font-size: 20px;
         white-space: 60px;
         line-height: 40px;
-        height: 600px;
+        /* height: 600px; */
     }
     #second_paragraph{
         
-        height: 1100px;
+        height: fit-content;
         padding-top: 5%;
         color: white;
         margin-top: -1%;
@@ -136,7 +144,7 @@
 }
 
 .photos img:hover {
-    transform: scale(1.5); 
+    transform: scale(1.1); 
 }
  #third_paragraph img:hover{
     transition: transform 0.3s ease;
@@ -162,11 +170,22 @@
 
 #last{
   /* height: fit-content; */
+  /* width: 250px; */
   position: fixed;
+  left: 2%;
+  text-decoration: none;
+  margin-top: 35%;
   color: white;
-  background-color: red;
-  font-size: 50px;
+  background-color: rgb(255, 0, 0);
+  font-size: 40px;
+  border-radius: 40%;
+  transition: transform 0.3s ease;
+  z-index: 1000;
 
+}
+#last:hover{
+  text-decoration: none;
+  transform: scale(1.4);
 }
 #last a{
   text-decoration: none;
