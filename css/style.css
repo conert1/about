@@ -21,6 +21,16 @@ h1 {
   color: white;
   font-size: 100px;
 }
+ 
+h2{
+  color: white;
+  font-size: 80px;
+}
+
+h3{
+  color: white;
+  font-size: 30px;
+}
 
 header {
   position: fixed;
@@ -80,6 +90,11 @@ h2 {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./pics/binary-3044663_1920.jpg"); */
 }
 
+.photos{
+  /* background-color: aliceblue; */
+  width: 100%;
+}
+
 .photos img {
   padding-left: 3%;
   margin-right: 10%;
@@ -110,7 +125,7 @@ h2 {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./pics/pexels-mikhail-nilov-7709020.jpg"); */
   height: 600px;
   margin-top: -3.8%;
-  font-size: xx-large;
+  font-size: 8vw;
   word-spacing: 50px;
   padding-top: 5%;
 }
@@ -180,5 +195,4 @@ h2 {
   }
 
   
-  
-  
+ 
