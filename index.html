@@ -44,44 +44,42 @@
     </div>
     </div>
     
-    
-    <div id="first_paragraph"><h2>About</h2>
-    <p>Full stack web developer in the making, self-taught mostly building websites using HTML CSS, and Javascript.
+    <!-- style this -->
+    <h2>About</h2>
+    <div id="first_paragraph">
+      <div id = "first_paragraph_one">
+        <p>Full stack web developer in the making, self-taught mostly building websites using HTML CSS, and Javascript.
       <br> My learning path also includes working on other small practice projects in languages like Python and Java,
       <br> While my primary proficiency lies in Java, I am enthusiastic about embracing new technologies and
-      <br> eager to adapt to the evolving demands of the industry. Professional work experience is
+      <br> eager to adapt to the evolving demands of the industry. 
+      </div>
+    
+      
+      <div id = "first_paragraph_two">
+        Professional work experience is
       <br> not in technology but in the retail industry,
        therefore I have acquired some very<br> valuable interpersonal skills that make me a good team player,
       <br> I am confident that I can contribute
-      significantly to any team I join. </p></div>
+      significantly to any team I join. </p>
+      </div>
+      </div>
 
-        <!-- <div class="fir"> -->
-        <!-- <div id="second_paragraph"> -->
+
             <h2>Skills</h2>
-            <!-- </div> -->
+         
             <div class="photos">
                 <img src="pics/html-5.png" alt="" width="150" height="150">
                 <img src="pics/social.png" alt="" width="140" height="115">
                 <img src="pics/js.png" alt="" width="130" height="130">
-                <!-- <ul>
-                  <li><b>HTML</b></li>
-                  <li><b>CSS</b></li>
-                  <li><b>Javascript</b></li>
-                </ul> -->
+          
             </div>
             <h3>Languages</h3>
             <div class="photos">
                 <img src="pics/Python.png" alt="" width="130" height="200">
                 <img src="pics/C++.png" alt="" width="130" height="200">
                 <img src="pics/Java.png" alt="" width="130" height="200">
-                <!-- <ul>
-                  <li><b>Python</b></li>
-                  <li><b>C++</b></li>
-                  <li><b>Java</b></li>
-                </ul> -->
+         
             </div>
-        
-        <!-- </div> -->
     
         <div id="third_paragraph">
             <h2>Projects</h2>
@@ -95,32 +93,6 @@
         <p>Contact          0610677442</p>
         <!-- <p>Send me a message on linkedin <a href="https://linkedin.com/in/conert-mavuso-80545427b">linkedin</a></p> -->
         </div>
-<script>
-
-
-  const hamburgerMenu = document.querySelector('.hamburger-menu');
-  const navbar = document.querySelector('.navbar');
-  const overlay = document.querySelector('.overlay'); 
-  const links = document.querySelectorAll('.navbar a'); 
-
-  
-  hamburgerMenu.addEventListener('click', () => {
-    navbar.classList.toggle('active');
-    if (overlay) overlay.classList.toggle('active'); 
-  });
-
-  
-  links.forEach((link) => {
-    link.addEventListener('click', () => {
-      navbar.classList.remove('active'); 
-      if (overlay) overlay.classList.remove('active'); 
-    });
-  });
-
-
-
-</script>
-
-        
+ 
   </body>
 </html>
