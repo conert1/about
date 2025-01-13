@@ -68,7 +68,7 @@ h2 {
   margin-top: -3.8%;
   color: white;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("/pics/monitor-1307227_1920.jpg"); */
-  font-size: 20px;
+  font-size: 30px;
   white-space: 60px;
   line-height: 40px;
 }
@@ -106,13 +106,13 @@ h2 {
 
 #third_paragraph img:hover {
   transition: transform 0.3s ease;
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 #third_paragraph {
-  height: 650px;
+  /* height: 650px; */
   color: white;
-
+  font-size: 30px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 2)), url("/pics/source-4280758_1280.jpg");
   padding-top: 5%;
 }
@@ -121,7 +121,7 @@ h2 {
   color: white;
   height: 600px;
   margin-top: -3.8%;
-  /* font-size: 2vw; */
+  font-size: 6vw;
   word-spacing: 50px;
   padding-top: 5%;
 }
