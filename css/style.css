@@ -25,7 +25,7 @@ h2{
 
 h3{
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 header {
@@ -68,7 +68,7 @@ h2 {
   margin-top: -3.8%;
   color: white;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("/pics/monitor-1307227_1920.jpg"); */
-  font-size: 30px;
+  font-size: 20px;
   white-space: 60px;
   line-height: 40px;
 }
@@ -112,16 +112,16 @@ h2 {
 #third_paragraph {
   /* height: 650px; */
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 2)), url("/pics/source-4280758_1280.jpg");
   padding-top: 5%;
 }
 
 #fourth_paragraph {
   color: white;
-  height: 600px;
+  height: 200px;
   margin-top: -3.8%;
-  font-size: 30px;
+  font-size: 20px;
   word-spacing: 50px;
   padding-top: 5%;
 }
