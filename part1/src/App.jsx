@@ -120,10 +120,30 @@
 
 // export default App
 
-const App = () => (
+const App = () => {
   <div>
     <p>Hello world</p>
   </div>
-)
+
+
+
+  const now = new Date()
+  const a = 10
+  const b = 20
+  console.log(now, a+b)
+  let friends = ["fr1 ", "fr2 ", "fr3 "]
+
+  return (
+    <div>
+      <p>Hello world, it is {now.toString()}</p>
+      <p>
+        {a} plus {b} is {a + b}
+      </p>
+
+      <h2>Second stanza</h2>
+    <p>{friends}</p>
+    </div>
+  )
+}
 
 export default App
